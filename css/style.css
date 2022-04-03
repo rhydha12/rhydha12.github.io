@@ -1,0 +1,231 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/bootcamp-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-nav {
+  margin-left: 267px;
+}
+
+.navbar-nav a {
+  margin-left: 50px;
+}
+
+.navbar-nav a .active {
+  font-weight: bold !important;
+}
+
+.navbar-nav a:hover {
+  color: #5b21b6 !important;
+}
+
+.hero-heading {
+  font-weight: bold;
+  margin-top: 64px;
+}
+
+.profile-section {
+  margin-top: 125px;
+}
+
+.text-designer {
+  background: linear-gradient(to right, #f59e0b 0%, #ef4444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-developer {
+  background: linear-gradient(to right, #5b21b6 0%, #9d174d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-portfolio {
+  background-color: #1f2937;
+  border: none;
+  color: white;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 24px;
+  margin-top: 24px;
+}
+
+.skill-wrapper {
+  margin-top: 110px;
+}
+
+.skill-wrapper .title {
+  margin-bottom: 90px;
+}
+
+.skill-wrapper .part {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.project {
+  margin-top: 120px;
+}
+
+.text-project {
+  font-family: 'Times New Roman', Times, serif
+}
+
+.para-project {
+  color: #828282;
+}
+
+.btn_project {
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.img_project {
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.img_project2 {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.project-text {
+  margin: auto !important;
+  padding-left: 100px;
+}
+
+
+.card {
+  border-radius: 20px;
+  margin-top: 80px;
+}
+
+.btn_connect {
+  background: linear-gradient(to right, #f59e0b 0%, #ef4444 100%);
+  color: white;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 24px;
+  border: none;
+}
+
+
+.form-control {
+  background-color: #E4E7EC;
+}
+
+.form-control:focus {
+  background-color: #E4E7EC;
+}
+
+.footer {
+  background-color: #1F2937;
+}
+
+.dutor-footer {
+  margin-top: 50px;
+}
+
+.text-footer {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: white;
+}
+
+.sosmed-footer img {
+  margin-right: 15px;
+}
+
+.sosmed-footer {
+  margin-bottom: 33px;
+}
+
+.end-footer {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.link-navigasi a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-decoration: none;
+
+}
+
+.office p {
+  color: white;
+  font-size: 16px;
+}
+
+.office-footer {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .img_project {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 20px;
+
+  }
+
+  .project-text {
+    margin: auto;
+    padding-left: 10px;
+    text-align: center;
+
+  }
+
+  .text-project {
+    padding-top: 20px;
+  }
+
+  .img_project2 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+  }
+
+  .navbar-nav {
+    margin-left: 0px;
+
+  }
+
+  .navbar-nav a {
+    margin-left: 0px;
+  }
+
+  .profile-section {
+    margin-top: 50px;
+  }
+
+  .button-portfolio {
+    margin-bottom: 40px;
+  }
+
+  .skill-wrapper {
+    margin-top: 60px;
+  }
+
+}
